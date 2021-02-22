@@ -1,0 +1,9 @@
+sp_helprotect;
+sp_helprole;
+sp_helprolemember;
+sp_helpsrvrole;
+sp_helpsrvrolemember;
+sp_helpdbfixedrole;
+sp_helplogins;
+sp_helpntgroup;
+sp_helpuser;

@@ -1,0 +1,1 @@
+select Servername, dbName, Status, DataFiles, [Data MB], [Log MB], TotalSizeMB, [Last backup] from [dbo].[dbaDatabaseSize_BackupStatus]
