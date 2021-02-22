@@ -1,0 +1,12 @@
+alter table [dbo].[vwTrips] alter column [TripID] add not for replication; 
+alter table [dbo].[WorkflowWithEligibility] alter column [Id] add not for replication; 
+alter table [dbo].[VehicleHistorySync] alter column [ID] add not for replication; 
+alter table [dbo].[TripHistorySync] alter column [ID] add not for replication; 
+alter table [dbo].[Archive_Configuration] alter column [Archive_ConfigurationID] add not for replication; 
+alter table [dbo].[WebUsers] alter column [webusersid] add not for replication; 
+alter table [dbo].[TripImportHistory] alter column [ID] add not for replication; 
+alter table [dbo].[Cust_NPP] alter column [entry_id] add not for replication; 
+alter table [dbo].[Cust_Trips_NoNPP] alter column [TripID] add not for replication; 
+alter table [dbo].[Extract_Log] alter column [Id] add not for replication; 
+alter table [dbo].[WebContent] alter column [webcontentId] add not for replication; 
+alter table [dbo].[ts_Mmbrshp_Enrlmnt_History] alter column [IndexID] add not for replication; 

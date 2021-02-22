@@ -1,0 +1,5 @@
+SELECT * FROM dbo.CheckDB
+UNION ALL 
+SELECT * FROM [EMSSQL3].master.dbo.CheckDB
+UNION ALL 
+SELECT * FROM [EMSSQL7].master.dbo.CheckDB
